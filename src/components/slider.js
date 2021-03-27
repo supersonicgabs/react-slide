@@ -32,7 +32,7 @@ const Slider = ({mode}) => {
       setClassName(mode === 'slide' ? 'animation-slide-left' : 'animation-fade')
       setTimeout(()=>{
         setClassName('')
-      }, 600)
+      }, 400)
     }
   
     const nextSlide=()=>{
@@ -40,7 +40,7 @@ const Slider = ({mode}) => {
       setClassName(mode === 'slide' ? 'animation-slide-right' : 'animation-fade')
       setTimeout(()=>{
         setClassName('')
-      }, 600)    
+      }, 400)    
     }
   
     return (

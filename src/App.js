@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <Slider mode="slide" />
+      <Slider mode="fade" />
     </div>
   );
 }
