@@ -6,9 +6,7 @@ import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 const Slider = ({mode}) => {
     const [activeImageIndex, setActiveImageIndex] = useState(0)
     const [className, setClassName] = useState('')
-    useEffect(()=>{
-  
-    }, [activeImageIndex])
+
     const images = [
       {
         id: 1,
