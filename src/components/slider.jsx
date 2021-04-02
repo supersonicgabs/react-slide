@@ -57,6 +57,6 @@ const Slider = ({mode}) => {
 }
 
 Slider.propTypes = {
-    mode: PropTypes.oneOf(['fade', 'slide']).isRequired
+    mode: PropTypes.oneOf(['fade', 'slide'])
 }
 export default Slider
